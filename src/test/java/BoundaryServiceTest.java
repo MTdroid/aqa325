@@ -29,14 +29,4 @@ public class BoundaryServiceTest {
 
 
 
-/* Поиск минимального числа в массиве
 
-    public int findMin(int[] marks) {
-        int currentMin = marks[0];
-        for (int mark : marks) {
-            if (currentMin > mark) {
-                currentMin = mark;
-            }
-        }
-        return currentMin;
-    }*/

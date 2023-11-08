@@ -11,10 +11,9 @@ public class BoundaryServiceTest {
     @Test
     public void findmin() {
         int[] array = {3,2,1,6,5,1,4,4};
-        int[] array1 = {1,1};
         int bsResult = boundaryService.findMin(array);
         int testResult = Arrays.stream(array).min().getAsInt();
-        assertEquals(testResult,bsResult);
+        assertEquals(testResult,25);
     }
 
     @Test

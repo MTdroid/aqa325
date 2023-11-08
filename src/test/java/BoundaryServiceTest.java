@@ -13,7 +13,7 @@ public class BoundaryServiceTest {
         int[] array = {3,2,1,6,5,1,4,4};
         int bsResult = boundaryService.findMin(array);
         int testResult = Arrays.stream(array).min().getAsInt();
-        assertEquals(testResult,bsResult);
+        assertEquals(testResult,25);
     }
 
     @Test

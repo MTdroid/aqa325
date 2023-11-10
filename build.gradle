@@ -18,8 +18,8 @@ dependencies {
 }
 
 test {
-    useJUnitPlatform()
-    finalizedBy jacocoTestReport // После запуска тестов генерировуется отчёт о покрытии
+        useJUnitPlatform()
+        finalizedBy jacocoTestReport // После запуска тестов генерировуется отчёт о покрытии
 
 }
 
